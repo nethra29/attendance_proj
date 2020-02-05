@@ -196,7 +196,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     return (INT_PTR)FALSE;
 }
 
-void getCurrentDateAndTime()
+/*void getCurrentDateAndTime()
 {
 	auto start = std::chrono::system_clock::now();
 	// Some computation here
@@ -205,4 +205,4 @@ void getCurrentDateAndTime()
 	std::chrono::duration<double> elapsed_seconds = end - start;
 	std::time_t end_time = std::chrono::system_clock::to_time_t(end);
 	std::cout << 
-}
+}*/

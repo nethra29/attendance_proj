@@ -16,12 +16,15 @@
 
 using namespace std;
 
+//TODO no main , give it a method name something like ConnectToMYSQL()
 int main(void)
 {
+  // TODO no couts
 cout << endl;
 cout << "Running 'SELECT 'Hello World!' »
    AS _message'..." << endl;
 
+  //TODO  comments should be added in every step
 try {
   sql::Driver *driver;
   sql::Connection *con;
